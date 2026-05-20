@@ -205,7 +205,7 @@ public class dbManager {
         return books;
     }
 
-    // BAGONG METHOD: Kumukuha lang ng librong pwedeng hiramin (Available)
+    
     public static List<String> getAllAvailableBooks() {
         List<String> books = new ArrayList<>();
         String sql = "SELECT * FROM books WHERE status = 'Available' OR status = 'available'";
