@@ -111,7 +111,7 @@ public class NovaAiAssistant extends javax.swing.JFrame {
 
         jPanel3.setBackground(new java.awt.Color(0, 0, 0));
 
-        jLabel1.setFont(new java.awt.Font("Segoe UI", 3, 36)); // NOI18N
+        jLabel1.setFont(new java.awt.Font("Segoe UI", 3, 36)); 
         jLabel1.setForeground(new java.awt.Color(255, 255, 255));
         jLabel1.setText("Nova AI Assistant");
 
@@ -191,7 +191,7 @@ public class NovaAiAssistant extends javax.swing.JFrame {
     if (!userInput.isEmpty()) {
         
         System.out.println("User Input: \"" + userInput + "\"");
-        txtChatDisplay.setText(""); // Linisin agad ang text field
+        txtChatDisplay.setText(""); 
         
         
         new Thread(() -> {
