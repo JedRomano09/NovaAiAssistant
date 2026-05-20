@@ -45,7 +45,7 @@ public class Login extends javax.swing.JFrame {
         jPanel3.setBackground(new java.awt.Color(26, 32, 44));
 
         jLabel1.setBackground(new java.awt.Color(0, 0, 0));
-        jLabel1.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
+        jLabel1.setFont(new java.awt.Font("Segoe UI", 1, 18)); 
         jLabel1.setForeground(new java.awt.Color(255, 255, 255));
         jLabel1.setText("Login");
 
@@ -58,7 +58,7 @@ public class Login extends javax.swing.JFrame {
         jLabel2.setText("Username:");
 
         lblForgotPassword.setBackground(new java.awt.Color(102, 102, 255));
-        lblForgotPassword.setFont(new java.awt.Font("Segoe UI", 2, 12)); // NOI18N
+        lblForgotPassword.setFont(new java.awt.Font("Segoe UI", 2, 12)); 
         lblForgotPassword.setForeground(new java.awt.Color(51, 51, 255));
         lblForgotPassword.setText("Forgot Password?");
         lblForgotPassword.addMouseListener(new java.awt.event.MouseAdapter() {
