@@ -19,10 +19,10 @@ public class NovaAiAssistant extends javax.swing.JFrame {
         
         txtConsole = new javax.swing.JTextArea();
         txtConsole.setEditable(false);
-        txtConsole.setLineWrap(true);       // Awtomatikong bababa kapag mahaba ang text
-        txtConsole.setWrapStyleWord(true);   // Buong salita ang bababa kapag nag-wrap
-        txtConsole.setBackground(new Color(20, 20, 20)); // Dark Mode background gaya ng dati
-        txtConsole.setForeground(new Color(50, 255, 50)); // Matrix Green text
+        txtConsole.setLineWrap(true);       
+        txtConsole.setWrapStyleWord(true);   
+        txtConsole.setBackground(new Color(20, 20, 20)); 
+        txtConsole.setForeground(new Color(50, 255, 50)); 
         txtConsole.setFont(new Font("Consolas", Font.PLAIN, 13));
         txtConsole.setMargin(new Insets(10, 10, 10, 10));
         
