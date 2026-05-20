@@ -98,7 +98,7 @@ public class NovaFunction {
                     return;
                 }
                 
-                System.out.println("JSON: " + rawJsonOutput);
+                System.out.println(rawJsonOutput);
                 JsonObject parsedCommand = JsonParser.parseString(rawJsonOutput).getAsJsonObject();
                 
                 dispatcher.dispatch(parsedCommand);
